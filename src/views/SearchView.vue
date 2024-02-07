@@ -49,7 +49,7 @@ export default {
   <div class="flex-col gap-2">
     <div class="flex gap-2 justify-center">
       <input @change="updateQuery" type="text" class="rounded border border-dark-blue p-1" ref="search" placeholder="Gene Identifier">
-      <button @click="search" class="rounded border border-dark-blue bg-camel text-cream p-1">Search</button>
+      <button @click="search" @keyup.enter="search" class="rounded border border-dark-blue bg-camel text-cream p-1">Search</button>
     </div>
     <div class="flex justify-center">
       <SearchResults :genes="this.genes"/>
