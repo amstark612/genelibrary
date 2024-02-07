@@ -1,7 +1,7 @@
 # Run
 1. Clone repo & change into directory
 2. run `npm install`
-3. run `node server/imprt.js`
+3. run `node server/import.js`
 4. run `npm run dev` to start both servers
 5. Go to http://localhost:5157 (or whatever port your terminal tells you it's running on)
 
